@@ -4,6 +4,11 @@ on:
     branches:
       - main
 
+stages:
+  - build
+  - test
+  - deploy
+
 jobs:
   build:
     runs-on: ubuntu-latest
