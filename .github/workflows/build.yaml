@@ -60,6 +60,6 @@ jobs:
         uses: amondnet/vercel-action@v20
         with:
           vercel_token: ${{ secrets.VERCEL_TOKEN }}
-          vercel_project_id: job-portal-728fwjsdx-rafxrads-projects
+          vercel_project_id: prj_v0YNXT0jRdj0nJxZkZ3xY3tXcKpB
           vercel_prod_branch: main
           vercel_dir: ./build
