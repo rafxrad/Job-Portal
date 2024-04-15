@@ -11,6 +11,7 @@ stages:
 
 jobs:
   build:
+    stage: build
     runs-on: ubuntu-latest
 
     steps:
@@ -30,6 +31,7 @@ jobs:
 
 
   test:
+    stage: test
     runs-on: ubuntu-latest
 
     steps:
@@ -48,6 +50,7 @@ jobs:
         run: npm run test
 
   deploy:
+    stage: deploy
     runs-on: ubuntu-latest
 
     steps:
